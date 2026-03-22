@@ -1,0 +1,82 @@
+<script>$("#borrower_phone").on("keypress keyup blur",function (event) {    
+           $(this).val($(this).val().replace(/[^\d].+/, ""));
+            if ((event.which < 48 || event.which > 57)) {
+                event.preventDefault();
+            }
+        });</script>
+
+
+<script>
+$( "p#selfRegUsername" ).hide();
+</script>
+
+<script>
+if ( $('#MaterialsRequest-NewRequestIls').length ) {
+    //relabel fields
+    $('label[for="copyrightdate"]').text('Publication date:');
+    $('label[for="publishercode"]').text('Intended audience:');
+    $('label[for="place"]').text('Format:');
+    $('label[for="collectiontitle"]').text('If purchased, place hold for me:');
+    $('label[for="itemtypeSelect"]').text('If not purchased, order interlibrary loan for me');
+    $('label[for="note"]').text('Additional information:');
+
+    //limit note field to 100 characters
+    $('#note').attr('maxlength' , 100 );
+    
+    //repurpose publisher field as intended audience
+    $('#publishercode').replaceWith(`
+    <select id="publishercode" name="publishercode" class="valid required form-control" aria-invalid="false">
+        <option value="">--Choose--</option>
+        <option value="Adults">Adults</option>
+        <option value="Teens">Teens</option>
+        <option value="Children">Children</option>
+        <option value="General/Unknown">General/Unknown</option>
+    </select>
+    `);
+    
+    //relabel place field as Format
+    $('#place').replaceWith(`
+    <select id="place" name="place" class="valid required form-control" aria-invalid="false">
+        <option value="">--Choose--</option>
+        <option value="Book">Book</option>
+        <option value="Large type">Large type</option>
+        <option value="Blu-ray">Blu-ray</option>
+        <option value="DVD">DVD</option>
+    </select>
+    `);
+    
+    //repurpose collection title as hold question
+    $('#collectiontitle').replaceWith(`
+    <select id="collectiontitle" name="collectiontitle" class="valid required form-control" aria-invalid="false">
+        <option value="">--Choose--</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    `);
+    
+    //repurpose item type as ILL question
+    $('#itemtypeSelect').replaceWith(`
+    <select id="itemtype" name="itemtype" class="valid required form-control" aria-invalid="false">
+        <option value="">--Choose--</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    `);
+     
+     //move some fields around
+     $('#itemtypeSelect').parent().insertAfter( $('#collectiontitle').parent() );
+     $('#place').parent().insertAfter( $('#publishercode').parent() );
+
+    //hide some unwanted fields
+    $('#quantity').parent().hide();
+}
+</script>
+
+
+
+
+$(document).ready(function() {
+  $("#page-container").css({
+    'width': ($("#libcalFrame").width() + 'px')
+  });
+});
