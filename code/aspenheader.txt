@@ -1,1 +1,84 @@
+****************************************************************** Banner Styles  **********************************************************************************/
+/******
+#header-wrapper {
+background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenFallBackground.png?raw=true");
+background-size: cover;
+}
+
+//Spring/Summer Banner Link to switch to in March - August
+//https://github.com/benbrooklibrary/images/blob/master/Aspen/SpringSummer_AspenBanner.png?raw=true
+
+//Autumn/Winter Banner Link to switch in September - February
+//https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenFallBackground.png?raw=true
+****/
+
+/********************** Aspen Banner  GIF *************************/
+
+div#page-header {
+width: 100%;
+}
+
+div#header-wrapper.row  {
+background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenBanner.gif?raw=true");
+background-size: cover;
+height: 250px;
+background-repeat: no-repeat;
+padding: 0;
+margin-left: -15px; 
+}
+
+#header-logo {
+width: 400px;
+margin-top: 55px; 
+margin-left: 25px;
+}
+
+/* Mobile Size Adjustments for Banner*/
+
+@media only screen and (max-width: 768px){
+div#header-wrapper.row  {
+margin-left: -200px;
+}
+#header-logo {
+    width: 300px;
+    margin-top: 65px;
+    margin-left: 200px;
+}
+}
+
+@media only screen and (max-width: 480px){
+div#header-wrapper.row  {
+background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenMobileBanner.gif?raw=true");
+background-size: cover;
+margin-left: -15px;
+}
+#header-logo {
+width: 275px;
+margin: auto;
+margin-top: 20px;
+}
+#language-selection-header {
+position: absolute;
+top: 0;
+}
+.input-group { 
+margin-left: 10px;
+}
+.input-group .form-control {
+width: 100%;
+}
+}
+
+/********************End Aspen Banner  GIF *********************************/
+
+
+
+
+/***************************************************************End Banner Code **************************************************/
+/**** Logo 
+img#header-logo {
+width: 100%;
+margin: 0;
+padding: 200px;
+} ****/
 
