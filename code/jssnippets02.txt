@@ -16,23 +16,6 @@ border: none;
 border: 2px solid #a9c25d;
 }
 
-/**** Background Image for Banner ****/
-#header-wrapper {
-background-image: url("https://github.URL/_AspenBanner.png?raw=true");
-background-size: cover;
-}
-
-/**https://github.URL/_AspenFallBackground.png?raw=true**/
-
-/****https://github.URL/_FallAspenBanner_1170x274.png?raw=true ****/
-
-/**** Logo 
-img#header-logo {
-width: 100%;
-margin: 0;
-padding: 200px;
-} ****/
-
 
 /**** Side scrolling arrows - Getting rid of background and making arrows blue ****/
 #browse-category-picker .jcarousel-control-prev, #browse-category-picker .jcarousel-control-next {
