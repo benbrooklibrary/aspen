@@ -3,10 +3,10 @@
 
 
 //Spring/Summer Banner Link to switch to in March - August
-//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/FallAspenBanner.gif?raw=true"
+//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/FallAspenBanner.gif
 
 //Autumn/Winter Banner Link to switch in September - February
-//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/WinterAspenBanner.gif?raw=true"
+//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/WinterAspenBanner.gif
 ****/
 
 
@@ -47,7 +47,7 @@ margin-left: -200px;
 
 @media only screen and (max-width: 480px){
 div#header-wrapper.row  {
-background-image: url("https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images//MobileSpringAspenBanner.gif?raw=true");
+background-image: url("https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images//MobileSpringAspenBanner.gif");
 background-size: cover;
 margin-left: -15px;
 }
