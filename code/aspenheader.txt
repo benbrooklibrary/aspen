@@ -1,33 +1,32 @@
-****************************************************************** Banner Styles  **********************************************************************************/
+/****************************************************************** Banner Styles  **********************************************************************************/
 /******
-#header-wrapper {
-background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenFallBackground.png?raw=true");
-background-size: cover;
-}
+
 
 //Spring/Summer Banner Link to switch to in March - August
-//https://github.com/benbrooklibrary/images/blob/master/Aspen/SpringSummer_AspenBanner.png?raw=true
+//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/FallAspenBanner.gif?raw=true"
 
 //Autumn/Winter Banner Link to switch in September - February
-//https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenFallBackground.png?raw=true
+//https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/WinterAspenBanner.gif?raw=true"
 ****/
 
-/********************** Aspen Banner  GIF *************************/
+
+/********************** MAIN Aspen Banner  GIF *************************/
 
 div#page-header {
 width: 100%;
 }
 
-div#header-wrapper.row  {
-background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenBanner.gif?raw=true");
+div#header-wrapper.row {
+background-image: url("https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/SpringAspenBanner.gif");
 background-size: cover;
 height: 250px;
 background-repeat: no-repeat;
 padding: 0;
-margin-left: -15px; 
+margin-left: -15px;
 }
 
 #header-logo {
+display: none;
 width: 400px;
 margin-top: 55px; 
 margin-left: 25px;
@@ -48,15 +47,18 @@ margin-left: -200px;
 
 @media only screen and (max-width: 480px){
 div#header-wrapper.row  {
-background-image: url("https://github.com/benbrooklibrary/images/blob/master/Aspen/AspenMobileBanner.gif?raw=true");
+background-image: url("https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images//MobileSpringAspenBanner.gif?raw=true");
 background-size: cover;
 margin-left: -15px;
 }
+
 #header-logo {
+display: none;
 width: 275px;
 margin: auto;
 margin-top: 20px;
 }
+
 #language-selection-header {
 position: absolute;
 top: 0;
@@ -69,7 +71,7 @@ width: 100%;
 }
 }
 
-/********************End Aspen Banner  GIF *********************************/
+/********************End MAIN Aspen Banner  GIF *********************************/
 
 
 
@@ -81,4 +83,3 @@ width: 100%;
 margin: 0;
 padding: 200px;
 } ****/
-
