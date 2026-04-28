@@ -1,9 +1,15 @@
-/**** Rounded Corners on Browse Category ****/
+/*** 
+Rounded Corners on Browse Category 
+***/
+
 .browse-category {
 border-radius: 10px;
 }
 
-/**** Hover effects on Browse Category Buttons ****/
+/*** 
+Hover effects on Browse Category Buttons 
+***/
+
 .browse-category div:hover {
 text-decoration: none;
 }
@@ -17,7 +23,10 @@ border: 2px solid #a9c25d;
 }
 
 
-/**** Side scrolling arrows - Getting rid of background and making arrows blue ****/
+/***
+Side scrolling arrows - Getting rid of background and making arrows blue 
+***/
+
 #browse-category-picker .jcarousel-control-prev, #browse-category-picker .jcarousel-control-next {
     background-color: transparent;
     color: #084d69;
@@ -34,7 +43,10 @@ box-shadow: none;
     box-shadow: 0 0 2px #084d69;
 }
 
-/**** Scroll down arrow ****/
+/***
+Scroll down arrow 
+***/
+
 #more-browse-results {
     background-color: transparent;
     color: #084d69;
@@ -46,7 +58,10 @@ box-shadow: none;
 }
 
 
-/***** Event Feed display for placards *****/
+/*** 
+Event Feed display for placards 
+***/
+
 .feed-item-desc {
   width: 300px;
   height: 100px;
@@ -54,7 +69,10 @@ box-shadow: none;
   box-sizing: border-box;
 }
 
-/***** Hide self-reg username *****/
+/***
+Hide self-reg username 
+***/
+
 #selfRegAccountInfo #selfRegUsername {
   display: none !important;
 }
@@ -64,12 +82,18 @@ box-shadow: none;
 }
 
 
-/**** Spotlights Collections header color on Custom Pages ****/ 
+/*** 
+Spotlights Collections header color on Custom Pages 
+***/ 
+
 .titleScrollerHeader {
 background-color: #084d69;
 }
 
-/**** Media Query to separate carousel arrows from Browse Category buttons in Mobile, Add Padding to search fields ****/
+/*** 
+Media Query to separate carousel arrows from Browse Category buttons in Mobile, Add Padding to search fields 
+***/
+
 @media only screen and (max-width: 600px) {
      .jcarousel-control-next {
          right: 0px;
@@ -104,25 +128,35 @@ background-color: #084d69;
 display: none; 
 }
 
-/**** Gets rid of Padding around system banner message ****/
+/***
+Gets rid of Padding around system banner message 
+***/
+
 #system-message-5, #system-messge-header.row {
 padding: 0; 
 margin: 0;
 }
 
 
-/**** Add a drop shadow behind the alert box ****/ 
+/*** 
+Add a drop shadow behind the alert box 
+***/ 
+
 .alert {
 box-shadow:0 0.8px 0.2px rgb(0 0 0 / 3%), 0 1px 0.3px rgb(0 0 0 / 5%), 0 0.5px 10px rgb(0 0 0 / 6%), 0 2px 17.9px rgb(0 0 0 / 7%), 0 4.8px 3px rgb(0 0 0 / 9%), 0 10px 80px rgb(0 0 0 / 5%);
 }
 
-/**********************************************Libcal Styles *******************************************************************/
+/***
+Libcal Styles 
+***/
 
 .libcalFrame {
 width: 1170px;
 }
 
-/*****Libcal Media Queries*****/
+/***
+Libcal Media Queries
+***/
 
 @media only screen and (max-width:1200px) {
 .libcalFrame {
@@ -131,9 +165,13 @@ overflow: hidden;
 }
 }
 
- /********************************************End Libcal Styles ****************************************************************/
+ /***
+End Libcal Styles 
+***/
 
-/**********************************************Registration Page*******************************************************************/
+/***
+Registration Page
+***/
 
 #selfRegSuccess {
 background-color: white; 
@@ -160,7 +198,10 @@ display: block;
 margin: auto; 
 }
 
-/***** Swapping Digital Card Images on Mobile Scale *****/
+/***
+Swapping Digital Card Images on Mobile Scale 
+***/
+
 @media only screen and (min-width: 480px) {
 .mobileCard {
 display: none;
@@ -184,4 +225,6 @@ padding: 0;
 }
 }
 
-/*********************************************End Registration Page*******************************************************************/
+/***
+End Registration Page
+***/
