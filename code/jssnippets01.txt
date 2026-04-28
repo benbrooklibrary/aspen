@@ -1,4 +1,6 @@
-<script>$("#borrower_phone").on("keypress keyup blur",function (event) {    
+//hide phone number with blur
+<script>
+$("#borrower_phone").on("keypress keyup blur",function (event) {    
            $(this).val($(this).val().replace(/[^\d].+/, ""));
             if ((event.which < 48 || event.which > 57)) {
                 event.preventDefault();
@@ -6,10 +8,12 @@
         });</script>
 
 
+//hide regular username
 <script>
 $( "p#selfRegUsername" ).hide();
 </script>
 
+//swap material request messages
 <script>
 if ( $('#MaterialsRequest-NewRequestIls').length ) {
     //relabel fields
