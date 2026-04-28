@@ -1,16 +1,19 @@
-/****************************************************************** Banner Styles  **********************************************************************************/
-/******
+/*** 
+Banner Styles 
+***/
 
-
+/***
 //Spring/Summer Banner Link to switch to in March - August
 //https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/FallAspenBanner.gif
 
 //Autumn/Winter Banner Link to switch in September - February
 //https://raw.githubusercontent.com/benbrooklibrary/aspen/refs/heads/main/images/WinterAspenBanner.gif
-****/
+***/
 
 
-/********************** MAIN Aspen Banner  GIF *************************/
+/***  
+MAIN Aspen Banner GIF 
+***/
 
 div#page-header {
 width: 100%;
@@ -32,7 +35,9 @@ margin-top: 55px;
 margin-left: 25px;
 }
 
-/* Mobile Size Adjustments for Banner*/
+/***
+Mobile Size Adjustments for Banner
+***/
 
 @media only screen and (max-width: 768px){
 div#header-wrapper.row  {
@@ -71,15 +76,22 @@ width: 100%;
 }
 }
 
-/********************End MAIN Aspen Banner  GIF *********************************/
+/***
+End MAIN Aspen Banner GIF 
+***/
 
 
 
 
-/***************************************************************End Banner Code **************************************************/
-/**** Logo 
+/***
+End Banner Code 
+***/
+
+
+/*** Logo 
 img#header-logo {
 width: 100%;
 margin: 0;
 padding: 200px;
-} ****/
+} 
+***/
